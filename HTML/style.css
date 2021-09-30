@@ -1,0 +1,77 @@
+/* This is my frist style sheet */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+body {
+    background-color: grey;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+#logo img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin:auto;
+    display: block
+  }
+h2 {
+    color: black;
+    
+}
+
+h3 {
+    color: black;
+}
+
+.eyo {color: orange}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    color: lightsalmon;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    height: 35px;
+}
+
+.box1 {background-color: lightpink;}
+.box2 {background-color: rgba(118, 73, 243, 0.5);}
+.box3 {background-color: lightsalmon;}
+.box4 {background-color: lightskyblue;}
+.box5 {background-color: red;}
+.box6 {background-color: black;}
+.box7 {background-color: blue;}
+.box8 {background-color: grey;}
+.box9 {background-color: orange;}
+
+
+.boximg {
+    color: lightsalmon;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: fill;
+    height: fill;
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: orangered;
+  }
